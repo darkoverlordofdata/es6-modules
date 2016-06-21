@@ -4,16 +4,14 @@
  * 
  *
  */
-var System = (function(registry, modules){
+var System = (function(){
+    
+    const registry = {};
+    const modules = {};
+
     return {
-        get() {
-
-        },
-        set() {
-
-        },
-        has() {
-
+        has(name) {
+            !!registry[name];
         },
         /**
          * register a module
@@ -168,5 +166,5 @@ var System = (function(registry, modules){
         }
         
     }
-}({}, {}));
+}());
 

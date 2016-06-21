@@ -1,16 +1,15 @@
 {
     "compilerOptions": {
         "target": "es6",
-        "module": "system",
+        "module": "amd",
         "rootDir": "src",
         "outFile": "js/app.js"
     },
     "files": [
-        "src/system.js",
+        "src/amd.js",
         "src/lib/lib.js",
         "src/lib/shapes/Circle.js",
         "src/lib/utils/functions.js",
-        "src/lib/utils/Gdx.js",
-        "src/lib.js"
+        "src/lib/utils/Gdx.js"
     ]
 }
