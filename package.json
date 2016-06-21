@@ -1,0 +1,23 @@
+{
+  "name": "es6-modules",
+  "version": "1.0.0",
+  "description": "testing",
+  "main": "index.js",
+  "scripts": {
+    "_vscode_build": "tsc -p jsconfig.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "darkoverlordofdata",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-gh-pages": "^0.5.2",
+    "gulp-manifest": "0.0.7",
+    "gulp-shell": "^0.4.2",
+    "gulp-webserver": "^0.9.1"
+  },
+  "dependencies": {
+    "morgan": "^1.7.0",
+    "systemjs": "^0.19.31"
+  }
+}

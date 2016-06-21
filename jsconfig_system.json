@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "system",
+        "rootDir": "src",
+        "outFile": "js/app.js"
+    },
+    "files": [
+        "src/system.js",
+        "src/lib/lib.js",
+        "src/lib/shapes/Circle.js",
+        "src/lib/utils/functions.js",
+        "src/lib/utils/Gdx.js",
+        "src/lib.js"
+    ]
+}

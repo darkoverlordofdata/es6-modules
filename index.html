@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>GDX-Pixj.js</title>
+    <style>
+      html {
+        background: url(logo.png) #000;
+        background-repeat: no-repeat;
+        background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+      }
+
+      body {
+        padding: 0;
+        margin: 0;
+        background: #000;
+        display:block;
+        overflow:hidden;
+      }
+
+      body,
+      canvas, div {
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+        -khtml-user-select: none;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+      }
+    </style>
+  </head>
+  <body></body>
+  <script type="text/javascript" src="node_modules/systemjs/dist/system.js"></script>
+  <script type="text/javascript" src="js/app.js"></script>
+  <script>
+    console.log('Hello');
+    console.log(lib.utils.functions.square(33));
+    console.log(lib.utils.Gdx.one);
+  </script>
+</html>

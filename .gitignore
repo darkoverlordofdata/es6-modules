@@ -1,0 +1,7 @@
+.publish
+build/lib
+build/web
+node_modules
+packages
+web/packages
+web/src
