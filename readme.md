@@ -28,8 +28,8 @@ jsconfig.json:
         "outFile": "js/app.js"
     },
     "files": [
-        "src/lib/lib.js",
         "src/define.js",
+        "src/lib/lib.js",
         "src/lib/shapes/Circle.js",
         "src/lib/utils/functions.js"
     ]
